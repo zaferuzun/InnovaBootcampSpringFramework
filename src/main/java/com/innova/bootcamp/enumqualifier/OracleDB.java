@@ -1,6 +1,5 @@
 package com.innova.bootcamp.enumqualifier;
 
-
 @EQualifierMultiple(EDatabaseType.OracleDB)
 public class OracleDB implements IDatabaseType {
 
