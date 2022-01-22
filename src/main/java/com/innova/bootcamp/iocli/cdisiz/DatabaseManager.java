@@ -8,7 +8,7 @@ public class DatabaseManager {
 	@Inject
 	private IDatabaseType iDatabaseType;
 
-	//field constructor 
+	//constructor 
 	public DatabaseManager(IDatabaseType iDatabaseType) {
 		this.iDatabaseType = iDatabaseType;
 	}
